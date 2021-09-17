@@ -1,0 +1,85 @@
+body {
+   
+   /* ADD -<a href="https://www.vecteezy.com/free-photos">Free Stock photos by Vecteezy</a> */
+    background-color: rgba(165, 45, 45, 0.3);
+    /* margin: 0; */
+    padding: 0;
+    text-align: center;
+  }
+
+  body {
+    margin: 35px;
+  }
+  
+.landing {
+    background-image: url("assets/vecteezy_artificial-flower-bouquet-decoration-copy-space-background_3396883.jpg");
+    height: 20rem;
+    background-size: cover;
+}
+
+#searchwrap {
+    width: 87vw;
+    height: 87vh;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 2%;
+    padding-top: 50px;
+}
+
+#searchwrap #itemwrap {
+    float: left;
+    overflow: hidden;
+    width: 0;
+    white-space: nowrap;
+    border: none !important;
+    transition: all 0.7s ease;
+}
+
+  #searchwrap #itemwrap li {
+    display: inline;
+    margin-left: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  #searchwrap #itemwrap li:hover {
+    cursor: pointer;
+  }
+  #searchwrap input[type=search] {
+    background-color: transparent;
+    border: none;
+    float: right;
+    box-sizing: border-box;
+    display: inline;
+    width: 0%;
+    transition: all 0.7s ease;
+    color: #fff;
+    font-size: 30px;
+    margin-top: -10px;
+  }
+  #searchwrap #searchicon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 36px 55px 0 0;
+    font-size: 30px;
+    color: #fff;
+  }
+  #searchwrap #searchicon:hover {
+    cursor: pointer;
+  }
+  .active {
+    border-bottom: 2px solid #fff !important;
+    width: 100% !important;
+    transition: all 0.7s ease;
+  }
+  input:focus {
+    outline: none;
+  }
+  
+  .heading-block {
+      background-color: violet;
+  }
