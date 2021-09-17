@@ -2,21 +2,19 @@ body {
    
    /* ADD -<a href="https://www.vecteezy.com/free-photos">Free Stock photos by Vecteezy</a> */
     background-color: rgba(165, 45, 45, 0.3);
-    /* margin: 0; */
+    margin: 0;
     padding: 0;
     text-align: center;
   }
-
-  body {
-    margin: 35px;
-  }
-  
+#brand {
+    color: #898986;
+    font-family: 'Lobster Two', cursive;
+}
 .landing {
     background-image: url("assets/vecteezy_artificial-flower-bouquet-decoration-copy-space-background_3396883.jpg");
-    height: 20rem;
+    /* height: 20rem; */
     background-size: cover;
 }
-
 #searchwrap {
     width: 87vw;
     height: 87vh;
@@ -24,9 +22,9 @@ body {
     text-align: center;
     margin: 0 auto;
     border-radius: 2%;
-    padding-top: 50px;
+    padding-top: 45px;
+    box-shadow: 3px 4px 6px #bc9e9e;
 }
-
 #searchwrap #itemwrap {
     float: left;
     overflow: hidden;
@@ -35,8 +33,7 @@ body {
     border: none !important;
     transition: all 0.7s ease;
 }
-
-  #searchwrap #itemwrap li {
+#searchwrap #itemwrap li {
     display: inline;
     margin-left: 30px;
     font-family: 'Lato', sans-serif;
@@ -44,11 +41,12 @@ body {
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 1px;
-  }
-  #searchwrap #itemwrap li:hover {
+    font-family: 'Quicksand', sans-serif;
+}
+#searchwrap #itemwrap li:hover {
     cursor: pointer;
-  }
-  #searchwrap input[type=search] {
+}
+#searchwrap input[type=search] {
     background-color: transparent;
     border: none;
     float: right;
@@ -59,27 +57,58 @@ body {
     color: #fff;
     font-size: 30px;
     margin-top: -10px;
-  }
-  #searchwrap #searchicon {
+}
+#searchwrap #searchicon {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 36px 55px 0 0;
+    margin: 20px 55px 0 0;
     font-size: 30px;
     color: #fff;
-  }
-  #searchwrap #searchicon:hover {
+}
+#searchwrap #searchicon:hover {
     cursor: pointer;
-  }
-  .active {
+}
+.active {
     border-bottom: 2px solid #fff !important;
     width: 100% !important;
     transition: all 0.7s ease;
-  }
-  input:focus {
+}
+input:focus {
     outline: none;
-  }
-  
-  .heading-block {
-      background-color: violet;
-  }
+}
+.heading-row {
+    margin: 8% 4%;
+}  
+.heading-block {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    background-color: #dabcbcf5;
+    border-radius: 4%;
+    box-shadow: 1px 1px 7px #e3bfbf;
+    padding: 3% 1%;
+    height: 55vh;
+}
+.slogan {
+    margin: 0% 3% 5%;
+}
+#span-slogan {
+    display: -webkit-inline-box;
+}
+#logo-img {
+    height: 15%;
+}
+#shop-btn {
+    font-family: 'Raleway', sans-serif;
+    color:#416d66;
+    box-shadow: 0px 2px 6px #b99a9e;
+}
+.order-now {
+    margin: 1% 0% 3%;
+}
+
+
+
+/* font-family: 'Quicksand', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Lobster Two', cursive; */
