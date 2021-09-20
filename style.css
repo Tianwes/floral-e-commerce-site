@@ -209,6 +209,35 @@ font-family: 'Raleway', sans-serif;
     left: -225px;
     float: left;
 }
+#footer-div {
+    background-color: #dabcbc;
+    color: white;
+    width: 87vw;
+    height: fit-content;
+    position: relative;
+    margin: 3% auto;
+    border-radius: 22px;
+    padding-top: 15px;
+    box-shadow: 3px 4px 6px #bc9e9e;
+}
+table {
+    font-family: 'Raleway', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  td, th {
+    text-align: left;
+    padding: 6px 62px;
+}
+#footer-brand {
+    text-align:center;
+    color: #898986;
+    font-weight: 700;
+    margin: 12px 0;
+}
+.footer-policy-links {
+    padding: 1% 1%;
+}
 
 /* font-family: 'Quicksand', sans-serif; */
 /* font-family: 'Raleway', sans-serif; */
