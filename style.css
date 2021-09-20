@@ -99,7 +99,7 @@ input:focus {
     color: white;
     font-family: 'Poiret One', cursive;
     background-color: #dabcbcf5;
-    border-radius: 4%;
+    border-radius: 22px;
     box-shadow: 1px 1px 7px #e3bfbf;
     padding: 3% 1%;
     height: 55vh;
@@ -128,10 +128,14 @@ input:focus {
     position: relative;
     text-align: center;
     margin: 3% auto;
-    border-radius: 2%;
+    border-radius: 22px;
     padding-top: 45px;
     box-shadow: 3px 4px 6px #bc9e9e; 
     background: linear-gradient(180deg, rgba(255,255,255,0.896796218487395) 0%, rgba(240,221,221,0.8743872549019608) 50%, rgba(255,255,255,1) 100%)
+}
+#perfect-arrangement-h1 {
+    color: #93aa97;
+    font-family: 'Lobster Two', cursive;
 }
 .items-row {
     padding: 95px 30px 0px 8px;
@@ -145,6 +149,9 @@ input:focus {
     text-shadow: 3px 2px 3px gainsboro;
     font-family: 'Raleway', sans-serif;
     padding: 8% 0% 3%;
+}
+.card-text {
+font-family: 'Raleway', sans-serif;
 }
 .flower-inventory-pics {
     height: 20vh;
@@ -170,7 +177,38 @@ input:focus {
     margin: 5% 0;
     background-image: linear-gradient(to right, #dabcbc 0%, #ebd4c6 51%, #dabcbc 100%);
 }
-
+#about-div {
+    width: 87vw;
+    height: 44vh;
+    position: relative;
+    text-align: center;
+    margin: 3% auto;
+    border-radius: 22px;
+    padding-top: 45px;
+    box-shadow: 3px 4px 6px #bc9e9e; 
+    /* background: linear-gradient(180deg, rgba(255,255,255,0.896796218487395) 0%, rgba(240,221,221,0.8743872549019608) 50%, rgba(255,255,255,1) 100%) */
+    background-image: url("assets/cosmos-flower-pink.jpg");
+    background-size: cover; 
+}
+#about-h1 {
+    color: #898986;
+    font-size: 4rem;
+    font-family: 'Lobster Two', cursive;
+    float: left;
+    margin: -62px 0 0 65px;
+}
+#about {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+}
+#logo-img-about-div {
+    height: 20vh;
+    display: inline;
+    position: relative;
+    top: 93px;
+    left: -225px;
+    float: left;
+}
 
 /* font-family: 'Quicksand', sans-serif; */
 /* font-family: 'Raleway', sans-serif; */
