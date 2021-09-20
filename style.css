@@ -11,11 +11,20 @@ body {
     font-family: 'Lobster Two', cursive;
 }
 .bi-basket3-fill{
-    float: right;
-    margin: -47px 83px 0 0;
+    /* float: right; */
+    /* margin: -47px 83px 0 0; */
     font-size: 4vh;
     color: #898986;
 }
+.shopping-cart-div {
+    display: inline;
+    position: fixed;
+    z-index: 555;
+    float: right;
+    right: 15px;
+    top: 10px;
+}
+
 .landing {
     background-image: url("assets/vecteezy_artificial-flower-bouquet-decoration-copy-space-background_3396883.jpg");
     /* height: 20rem; */
@@ -125,18 +134,43 @@ input:focus {
     background: linear-gradient(180deg, rgba(255,255,255,0.896796218487395) 0%, rgba(240,221,221,0.8743872549019608) 50%, rgba(255,255,255,1) 100%)
 }
 .items-row {
-    padding: 95px 5px 0px 8px;
+    padding: 95px 30px 0px 8px;
 }
 .card {
     border-radius: 4%;    
+}
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #81ad88!important;
+    text-shadow: 3px 2px 3px gainsboro;
+    font-family: 'Raleway', sans-serif;
+    padding: 8% 0% 3%;
 }
 .flower-inventory-pics {
     height: 20vh;
     margin: -90px 0px 0px -1px;
 }
-#yellow-tulips {
-    height: 15vh;
+.add-to-cart-btn, #see-all-btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    background-color: #93aa97;
+   }
+.add-to-cart-btn:hover, #see-all-btn:hover {
+    background-position: right center;
 }
+#see-all-btn {
+    margin: 5% 0;
+    background-image: linear-gradient(to right, #dabcbc 0%, #ebd4c6 51%, #dabcbc 100%);
+}
+
 
 /* font-family: 'Quicksand', sans-serif; */
 /* font-family: 'Raleway', sans-serif; */
