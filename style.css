@@ -10,6 +10,12 @@ body {
     color: #898986;
     font-family: 'Lobster Two', cursive;
 }
+.bi-basket3-fill{
+    float: right;
+    margin: -47px 83px 0 0;
+    font-size: 4vh;
+    color: #898986;
+}
 .landing {
     background-image: url("assets/vecteezy_artificial-flower-bouquet-decoration-copy-space-background_3396883.jpg");
     /* height: 20rem; */
@@ -107,7 +113,30 @@ input:focus {
     margin: 1% 0% 3%;
 }
 
-
+#items-div {
+    width: 87vw;
+    height: fit-content;
+    position: relative;
+    text-align: center;
+    margin: 3% auto;
+    border-radius: 2%;
+    padding-top: 45px;
+    box-shadow: 3px 4px 6px #bc9e9e; 
+    background: linear-gradient(180deg, rgba(255,255,255,0.896796218487395) 0%, rgba(240,221,221,0.8743872549019608) 50%, rgba(255,255,255,1) 100%)
+}
+.items-row {
+    padding: 95px 5px 0px 8px;
+}
+.card {
+    border-radius: 4%;    
+}
+.flower-inventory-pics {
+    height: 20vh;
+    margin: -90px 0px 0px -1px;
+}
+#yellow-tulips {
+    height: 15vh;
+}
 
 /* font-family: 'Quicksand', sans-serif; */
 /* font-family: 'Raleway', sans-serif; */
