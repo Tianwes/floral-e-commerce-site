@@ -1,11 +1,9 @@
 body {
-   
-   /* ADD -<a href="https://www.vecteezy.com/free-photos">Free Stock photos by Vecteezy</a> */
     background-color: rgba(165, 45, 45, 0.3);
     margin: 0;
     padding: 0;
     text-align: center;
-  }
+}
 a {
     text-decoration: none;
 }
@@ -146,6 +144,14 @@ input:focus {
     font-family: 'Lobster Two', cursive;
     padding-bottom: 30px;
 }
+/* #recommend-div {
+    background-color: antiquewhite;
+    border-radius: 4px;
+    width: fit-content;
+    padding: 2px 45px;
+    font-family: 'Poiret One';
+    font-weight: 600;
+} */
 /* .items-row {
     padding: 95px 30px 0px 8px;
 } */
@@ -156,7 +162,6 @@ input:focus {
 .colstyle {
     padding-bottom: 12%;
 }
-
 .card {
     border-radius: 4%;    
     width: 16.5rem!important;
@@ -213,6 +218,10 @@ font-family: 'Raleway', sans-serif;
     background-image: url(assets/cosmos-flower-pink.jpg);
     background-size: cover; 
 }
+#about-div:hover {
+    box-shadow:6px 9px 6px #4040404f;
+    border-radius: 22px;
+}
 #about-h1 {
     color: #898986;
     font-size: 4rem;
@@ -250,14 +259,28 @@ table {
     border-style: none;
     color: white;
 }
+.footer-links {
+    color: white;
+    text-decoration: none;
+}
+.footer-links:hover {
+    color:#898986;
+    text-shadow: 4px 0px 4px blanchedalmond;
+}
 #footer-brand {
     text-align:center;
     color: #898986;
     font-weight: 700;
     margin: 12px 0;
 }
-.footer-policy-links {
-    padding: 1% 1%;
+.footer-policy-spans {
+    padding: 1% 2%;
+}
+.img-provider-links {
+    color: #89898c;
+}
+.img-provider-links:hover {
+    color: white;
 }
 
 
